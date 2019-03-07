@@ -86,6 +86,9 @@ af().then(r=>{
 // Promise {<resolved>: "Error: error occurred!!!!!ERRERR"}
 ```
 `then()`을 건너뛰고 `catch()`에 의해 변경된 내용을 확인할 수 있다.
+
+[링크의 글(error handling section)](https://javascript.info/async-await#error-handling)을 보면 try - catch 구문을 이용한 핸들링 예제도 있다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MzgwNzM1OF19
+eyJoaXN0b3J5IjpbOTkxODQ4OTUzXX0=
 -->
