@@ -57,7 +57,7 @@ afunc();
 (명시적으로 Promise를 리턴해주면 그냥 그대로 리턴해준다)
 
 **Error Handling**
-
+일반적으로 `await` 으로 Promise의 fulfilled를 기다려서 결과를 받으면 그 Promise가 rejected 상태로 끝난다면 `catch()`를 이용해 자연스럽게 가능하다.
 ```javascript
 var af = async function() {
   throw new Error("error occurred!!!!!");
@@ -83,5 +83,5 @@ af().then(r=>{
 ```
 `then()`을 건너뛰고 `catch()`에 의해 변경된 내용을 확인할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDI1ODU1MTBdfQ==
+eyJoaXN0b3J5IjpbLTEwMzMyNTQ1NjhdfQ==
 -->
