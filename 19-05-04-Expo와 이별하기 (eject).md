@@ -41,7 +41,7 @@ EXPO 공식문서를 통해 위 사실을 알 수 있었습니다.
 ![expo eject](https://lh3.googleusercontent.com/nuTs6LdeiUJkrerF4jm78VzOreZ4BWnm6KRh8WM8n-k4-mF_3TOsV5ffbOQnK-TFhl43tC-hXCA)
 
 eject를 하면 우리가 작성한 순수 JavaScript로 작성된 앱을 엑스포 모바일 클라이언트에서 꺼내줍니다. React-Native로만 개발하는 환경으로 변경되는 것입니다.
-다시 말해, EXPO 클라이언트 없이 네이티브 환경에서 우리 앱이 동작하게 됩니다.
+결국, EXPO 클라이언트 없이 네이티브 환경에서 우리 앱이 동작하게 됩니다.
 
 공식문서에도 관련 내용이 있습니다.
 > " *RN Core나 Expo SDK에서 지원하지 않는* 네이티브 모듈들을 사용해야 할 때 eject를 한다.
@@ -49,10 +49,10 @@ eject하면 순수 JavaScript로 이루어진 프로젝트를 Expo 모바일 클
 그리고 Xcode나 Android Studio 네이티브 프로젝트를 만든다.
 eject 후에 여전히 Expo SDK에 dependency가 있긴 하지만, 프로젝트는 더이상 엑스포 클라이언트 안에 살지(live) 않는다. "
 
-eject를 할 때, ExpoKit이라는 네이티브 라이브러리를 남겨놓으면 EXPO에 내장된 다양한 React 컴포넌트들을 이용해 네이티브 기능들을 쉽게 사용할 수 있습니다.
+eject를 할 때, ExpoKit이라는 네이티브 라이브러리를 남겨놓으면 EXPO에 내장된 다양한 React 컴포넌트들을 이용해 네이티브 기능을 쉽게 사용할 수 있습니다.
 실제로 꾹꾹이 프로젝트에서도, EXPO의 Google 지도 컴포넌트(`<MapView />`)를 이용해 빠르게 지도 기능을 구현할 수 있었습니다.
 
-한편 eject를 다시 돌이키는것도 가능합니다. 공식문서에 방법이 소개되어 있지만 eject로 인해 소실된 일부 정보를 manual하게 다시 잡아주는 과정이 필요합니다.
+그리고 eject 라는  eject를 다시 돌이키는것도 가능합니다. 공식문서에 방법이 소개되어 있지만 eject로 인해 소실된 일부 정보를 manual하게 다시 잡아주는 과정이 필요합니다.
 
 ## workflow with EXPO
 ![workflow with expo](https://lh3.googleusercontent.com/w7Ggise6EWgPjaUN5GPOOuagjCjifWTxTOu5bNGnu1XFkT4Nx8CLj9DG-apk2s9JdefLV8ozOco)
@@ -63,7 +63,7 @@ eject를 할 때, ExpoKit이라는 네이티브 라이브러리를 남겨놓으�
 
 EXPO에 대한 모든 것은 [이 곳](https://docs.expo.io/versions/latest/)(공식문서)에서 보실 수 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NTE4NTIyMywxMDYwMjMzODEsLTg5Mj
+eyJoaXN0b3J5IjpbLTY0MDIwOTIwOSwxMDYwMjMzODEsLTg5Mj
 ExNzY5MywtMTI0NTY5NjIxMywtMTc2NDgxMjEzNCwtMTQ3MjM1
 NzU1MiwtMTk0NjU0NjQ5MSwtMjA1MTc2MzA4NCwxNjE0MDM1OD
 A4LC0xNDA3NzczNjY0LC0xNjgwODI1NjkxXX0=
