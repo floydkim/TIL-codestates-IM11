@@ -4,8 +4,9 @@
 
 어떤 구조로 동작하는걸까요?
 
-expo는 로컬 개발환경에 두개의 서버를 띄웁니다.
-expo-CLI와 expo 모바일 클라이언트 둘 사이의 통신을 위한 서버(핑크색)을 하나 띄우고
+EXPO는 로컬 개발환경에 두개의 서버를 띄웁니다.
+EXPO 모바일 클라이언트에 react-native가 번들링 한 JavaScript 파일을 내려주기 위한 초록색 서버,
+EXPO-CLI와 expo 모바일 클라이언트 둘 사이의 통신을 위한 서버(핑크색)을 하나 띄웁니다.
 
 
 엑스포  모바일  클라이언트에
@@ -34,6 +35,6 @@ react-native가  번들링한  자바스크립트  파일을
 
 (넘겨)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM3MTg1Mjc4LC0xNDA3NzczNjY0LC0xNj
-gwODI1NjkxXX0=
+eyJoaXN0b3J5IjpbLTE0MzkyNDY0MDIsLTE0MDc3NzM2NjQsLT
+E2ODA4MjU2OTFdfQ==
 -->
