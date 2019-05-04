@@ -41,6 +41,7 @@ EXPO 공식문서를 통해 위 사실을 알 수 있었습니다.
 eject를 하면 순수 JavaScript로 작성된 앱을 엑스포 모바일 클라이언트에서
 꺼내줍니다. 다시 말해, EXPO 클라이언트 없이 네이티브 환경에서 우리 앱이 동작하게 됩니다.
 
+이 때 ExpoKit이라는 네이티브 라이브러리를 남겨놓으면 EXPO에 내장된 다양한 React 컴포넌트들을 이용해 네이티
 그런데
 엑스포에 내장된 기능들은
 리액트 네이티브로 사용하기 좋게
@@ -55,7 +56,7 @@ expo kit이라는 네이티브 라이브러리를 남겨놓으면
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MTMxNTMzMiwtMTk0NjU0NjQ5MSwtMj
-A1MTc2MzA4NCwxNjE0MDM1ODA4LC0xNDA3NzczNjY0LC0xNjgw
-ODI1NjkxXX0=
+eyJoaXN0b3J5IjpbMjI2MDU3NzY1LC0xOTQ2NTQ2NDkxLC0yMD
+UxNzYzMDg0LDE2MTQwMzU4MDgsLTE0MDc3NzM2NjQsLTE2ODA4
+MjU2OTFdfQ==
 -->
