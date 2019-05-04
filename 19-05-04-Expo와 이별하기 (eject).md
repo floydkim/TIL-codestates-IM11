@@ -41,6 +41,14 @@ EXPO 공식문서를 통해 위 사실을 알 수 있었습니다.
 eject를 하면 순수 JavaScript로 작성된 앱을 엑스포 모바일 클라이언트에서
 꺼내줍니다. 다시 말해, EXPO 클라이언트 없이 네이티브 환경에서 우리 앱이 동작하게 됩니다.
 
+공식문서에도 관련 내용이 있습니다.
+> " *RN Core나 Expo SDK에서 지원하지 않는* 네이티브 모듈들을 사용해야 할 때 eject를 한다.
+eject하면 순수 JavaScript로 이루어진 프로젝트를 Expo 모바일 클라이언트로부터 꺼내준다.
+그리고 code나 android studio 네이티브 프로젝트를 만든다.
+eject 후에 여전히 Expo SDK에 dependency가 있긴 하지만, 프로젝트는 더이상 엑스포 클라이언트 안에 살지(live) 않는다."
+
+요약하면, 이젝트를 하면 엑스포 프로젝트가 리액트 네이티브 프로젝트로 바뀐다는 얘기입니다.
+
 이 때 ExpoKit이라는 네이티브 라이브러리를 남겨놓으면 EXPO에 내장된 다양한 React 컴포넌트들을 이용해 네이티브 기능들을 쉽게 사용할 수 있습니다.
 실제로 꾹꾹이 프로젝트에서도, EXPO의 Google 지도 컴포넌트(`<MapView />`)를 이용해 빠르게 지도 기능을 구현할 수 있었습니다.
 
@@ -56,7 +64,7 @@ eject를 하면 순수 JavaScript로 작성된 앱을 엑스포 모바일 클라
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NDY4NjQ0NiwtMTQ3MjM1NzU1MiwtMT
+eyJoaXN0b3J5IjpbMTMxMTc3MjA2NiwtMTQ3MjM1NzU1MiwtMT
 k0NjU0NjQ5MSwtMjA1MTc2MzA4NCwxNjE0MDM1ODA4LC0xNDA3
 NzczNjY0LC0xNjgwODI1NjkxXX0=
 -->
