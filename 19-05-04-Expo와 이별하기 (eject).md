@@ -47,11 +47,21 @@ eject를 하면 순수 JavaScript로 작성된 앱을 엑스포 모바일 클라
 한편 eject를 다시 돌이키는것도 가능합니다. 공식문서에 방법이 소개되어 있지만 eject로 인해 소실된 일부 정보를 manual하게 다시 잡아주는 과정이 필요합니다.
 
 ## workflow with EXPO
+![workflow with expo](https://lh3.googleusercontent.com/w7Ggise6EWgPjaUN5GPOOuagjCjifWTxTOu5bNGnu1XFkT4Nx8CLj9DG-apk2s9JdefLV8ozOco)
 
+엑스포의 장점은 결국, 개발자의 생산성을 높이는데 있다고 생각합니다.
 
+1. 앱 개발 초기엔 엑스포를 사용해서 생산성있게 개발하고
+2. 네이티브 기능 구현이 남은 시점에 eject해서 Third-party 라이브러리를 쓰면서 개발을 계속하는게 효율적인 프로세스가 아닐까 생각됩니다.
+
+엑스포를 버리는 이별이 아니고
+수고해준 엑스포를 떠나보내는,
+아름다운 이별을 준비하시라는 말씀을 드리면서
+발표를 마치겠습니다.
+(넘겨)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ5OTAzNDQwLC0xOTQ2NTQ2NDkxLC0yMD
-UxNzYzMDg0LDE2MTQwMzU4MDgsLTE0MDc3NzM2NjQsLTE2ODA4
-MjU2OTFdfQ==
+eyJoaXN0b3J5IjpbLTE2Njk3OTAxNDUsLTE5NDY1NDY0OTEsLT
+IwNTE3NjMwODQsMTYxNDAzNTgwOCwtMTQwNzc3MzY2NCwtMTY4
+MDgyNTY5MV19
 -->
