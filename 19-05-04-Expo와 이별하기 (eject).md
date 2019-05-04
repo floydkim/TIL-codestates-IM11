@@ -52,7 +52,7 @@ eject 후에 여전히 Expo SDK에 dependency가 있긴 하지만, 프로젝트�
 eject를 할 때, ExpoKit이라는 네이티브 라이브러리를 남겨놓으면 EXPO에 내장된 다양한 React 컴포넌트들을 이용해 네이티브 기능을 쉽게 사용할 수 있습니다.
 실제로 꾹꾹이 프로젝트에서도, EXPO의 Google 지도 컴포넌트(`<MapView />`)를 이용해 빠르게 지도 기능을 구현할 수 있었습니다.
 
-한편, 상황에 따라서는 eject를 다시 돌이킬수도 있습니다. 공식문서에 방법이 소개되어 있지만 eject로 인해 소실된 일부 정보를 manual하게 다시 잡아주는 과정이 필요합니다.
+한편, 상황에 따라서는 eject를 다시 돌이킬수도 있습니다. 공식문서에 방법이 소개되어 있는데, eject로 인해 소실된 일부 정보를 manual하게 다시 잡아주는 과정이 필요하며 어려움이 따릅니다.
 
 ## workflow with EXPO
 ![workflow with expo](https://lh3.googleusercontent.com/w7Ggise6EWgPjaUN5GPOOuagjCjifWTxTOu5bNGnu1XFkT4Nx8CLj9DG-apk2s9JdefLV8ozOco)
@@ -63,8 +63,8 @@ eject를 할 때, ExpoKit이라는 네이티브 라이브러리를 남겨놓으�
 
 EXPO에 대한 모든 것은 [이 곳](https://docs.expo.io/versions/latest/)(공식문서)에서 보실 수 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MjExNTcwOCwxMDYwMjMzODEsLTg5Mj
-ExNzY5MywtMTI0NTY5NjIxMywtMTc2NDgxMjEzNCwtMTQ3MjM1
-NzU1MiwtMTk0NjU0NjQ5MSwtMjA1MTc2MzA4NCwxNjE0MDM1OD
-A4LC0xNDA3NzczNjY0LC0xNjgwODI1NjkxXX0=
+eyJoaXN0b3J5IjpbNDc5MzIxNzg0LDEwNjAyMzM4MSwtODkyMT
+E3NjkzLC0xMjQ1Njk2MjEzLC0xNzY0ODEyMTM0LC0xNDcyMzU3
+NTUyLC0xOTQ2NTQ2NDkxLC0yMDUxNzYzMDg0LDE2MTQwMzU4MD
+gsLTE0MDc3NzM2NjQsLTE2ODA4MjU2OTFdfQ==
 -->
