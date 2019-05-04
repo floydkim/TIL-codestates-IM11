@@ -14,8 +14,8 @@ EXPO-CLI와 expo 모바일 클라이언트 둘 사이의 통신을 위한 서버
 작성한 코드가 모바일 네이티브 환경에서 직접 구동되는것이 아니고, 받아온 앱을 엑스포 클라이언트 안에서 실행시킵니다.
 
 
-
+> EXPO 안에 들어가는 앱은 순수 JavaScript로 작성되고, 절대로 네이티브 iOS나 Android 레이어까지 내려가지 않는다. 이것은 EXPO의 핵심 철학이고, EXPO를 빠르게, 사용하기 좋게 만들어주는 부분이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNzM3MjY4NiwtMTQwNzc3MzY2NCwtMT
+eyJoaXN0b3J5IjpbLTgxMjY3MDY3MywtMTQwNzc3MzY2NCwtMT
 Y4MDgyNTY5MV19
 -->
