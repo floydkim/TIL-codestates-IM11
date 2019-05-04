@@ -27,9 +27,9 @@ EXPO 공식문서를 통해 위 사실을 알 수 있었습니다.
 ![EXPO와 Native App 비교](https://lh3.googleusercontent.com/cYu8NWNwEl8EaW7nqJZ342bG0o36GSdCgEqCkE_pHhB4llyDnXgKy_Tf_Gtp8lSEXr2BCYELkSw)
 
 먼저 오른쪽에 있는 네이티브 앱인 카카오톡을 볼까요?
-카카오톡같은 네이티브 앱은  OS 레이어와 직접 상호작용하며 네이티브 환경에서 동작합니다.
+카카오톡같은 네이티브 앱은 코드를 컴파일하고, 모바일 기기에 설치되어 OS 레이어와 직접 상호작용하며 네이티브 환경에서 동작합니다.
 
-반면에 우리가 작성한 코드는 엑스포 모바일 클라이언트 안에서만 동작하고, 자바스크립트 엔진으로만 동작하기 때문에 네이티브 언어 라이브러리를 소화해 낼 수 없습니다.
+반면에 우리가 작성한 자바스크립트 코드는 엑스포 모바일 클라이언트 안에서만 동작하고, 자바스크립트 엔진으로만 동작하기 때문에 네이티브 언어 라이브러리를 소화해 낼 수 없습니다.
 다만 엑스포에 내장된 네이티브 모듈들을 이용할 수 있기 때문에 단순한 웹뷰 수준을 벗어나서 네이티브한 기능을 구현할 수 있습니다.
 
 
@@ -41,6 +41,6 @@ EXPO 공식문서를 통해 위 사실을 알 수 있었습니다.
 그 대신 EXPO는 자주 쓰이는 네이티브한 기능이나, 그런 기능을 이용하는 라이브러리를 내장하고 있고, React 컴포넌트로 쉽게 사용할 수 있게 준비해놓았습니다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDYwMDg2NzcsLTE0MDc3NzM2NjQsLT
-E2ODA4MjU2OTFdfQ==
+eyJoaXN0b3J5IjpbMTYxNDAzNTgwOCwtMTQwNzc3MzY2NCwtMT
+Y4MDgyNTY5MV19
 -->
