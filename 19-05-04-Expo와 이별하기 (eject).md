@@ -1,6 +1,6 @@
 # EXPO와 이별하기
 React-Native를 이용해 모바일 앱을 만들 때, EXPO는 개발자가 앱 코딩을 빨리 시작할 수 있도록 도와줍니다.
-Xcode나 Android 프로젝트를 만들고, 프로젝트를 세팅하는 번거로움 없이 바로 코딩을 시작할 수 있게 해주는 유용한 툴입니다.
+Xcode나 Android 프로젝트를 만들고 세팅하는 번거로움 없이 바로 코딩을 시작할 수 있게 해주는 유용한 툴입니다.
 
 그런데 EXPO는 네이티브 언어로 된 라이브러리를 이용할 수 없다는 한계가 있습니다. 그래서 EXPO를 이용해 앱 개발을 하다 보면 `$ expo eject` 명령을 통해 EXPO와 이별할 수 밖에 없게 됩니다.
 
@@ -61,7 +61,7 @@ eject를 할 때, ExpoKit이라는 네이티브 라이브러리를 남겨놓으�
 
 EXPO에 대한 모든 것은 [이 곳](https://docs.expo.io/versions/latest/)(공식문서)에서 보실 수 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjQ4MTIxMzQsLTE0NzIzNTc1NTIsLT
-E5NDY1NDY0OTEsLTIwNTE3NjMwODQsMTYxNDAzNTgwOCwtMTQw
-Nzc3MzY2NCwtMTY4MDgyNTY5MV19
+eyJoaXN0b3J5IjpbLTE1MTQ2ODA0NjUsLTE3NjQ4MTIxMzQsLT
+E0NzIzNTc1NTIsLTE5NDY1NDY0OTEsLTIwNTE3NjMwODQsMTYx
+NDAzNTgwOCwtMTQwNzc3MzY2NCwtMTY4MDgyNTY5MV19
 -->
