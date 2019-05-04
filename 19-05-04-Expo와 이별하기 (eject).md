@@ -1,6 +1,8 @@
 # EXPO와 이별하기
 
-React-Native를 이용해 모바일 앱을 만들 때, EXPO는 개발자가 앱 코딩을 빨리 시작할 수 있도록 도와줍니다. xcode나 
+React-Native를 이용해 모바일 앱을 만들 때, EXPO는 개발자가 앱 코딩을 빨리 시작할 수 있도록 도와줍니다. Xcode나 Android 프로젝트를 만들고, 프로젝트를 세팅하는 번거로움 없이 바로 코딩을 시작할 수 있습니다.
+
+그런데 EXPO는 네이티브 언어로 된 라이브러리를 
 
 ## EXPO의 동작 환경
 
@@ -21,6 +23,6 @@ EXPO 공식문서를 통해 이 사실을 알 수 있었습니다.
 
 ![EXPO와 Native App 비교](https://lh3.googleusercontent.com/cYu8NWNwEl8EaW7nqJZ342bG0o36GSdCgEqCkE_pHhB4llyDnXgKy_Tf_Gtp8lSEXr2BCYELkSw)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNjMyODMzNywtMTQwNzc3MzY2NCwtMT
+eyJoaXN0b3J5IjpbMTc5NTgwODYzNiwtMTQwNzc3MzY2NCwtMT
 Y4MDgyNTY5MV19
 -->
