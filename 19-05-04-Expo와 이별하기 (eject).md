@@ -7,7 +7,7 @@ EXPO 없이 React-Native만으로 개발을 시작하려면 Xcode나 Android Stu
 그런데 React-Native로만 개발하는 경우와는 다르게, EXPO는 네이티브 언어로 된 라이브러리를 이용할 수 없다는 한계가 있습니다. 그래서 EXPO를 이용해 앱 개발을 하다 보면 `$ expo eject` 명령을 통해 EXPO와 이별할 수 밖에 없게 됩니다.
 
 이 글에서는 eject를 하는 과정이나 시행 착오를 다루지 않습니다.
-대신, EXPO에서는 왜 네이티브 라이브러리 사용을 못하는지 고민해보겠습니다.
+대신, EXPO에서는 왜 네이티브 라이브러리 사용이 안되는지 고민해보겠습니다.
 
 ## EXPO의 동작 환경
 
@@ -20,7 +20,7 @@ EXPO 모바일 클라이언트에 react-native가 번들링 한 JavaScript 파�
 EXPO-CLI와 expo 모바일 클라이언트 둘 사이의 통신을 위한 서버(핑크색)을 하나 띄웁니다.
 
 이 중 핵심은 엑스포 클라이언트입니다.
-작성한 코드가 모바일 네이티브 환경에서 직접 구동되는것이 아니고, 받아온 앱을 엑스포 클라이언트 안에서 실행시킵니다.
+작성한 코드가 모바일 네이티브 환경에서 직접 구동되는것이 아니고, 받아온 React-Native 앱을 엑스포 클라이언트 안에서 실행시킵니다.
 
 EXPO 공식문서를 통해 위 사실을 알 수 있었습니다.
 > " EXPO 안에 들어가는 앱은 순수 JavaScript로 작성되고, 절대로 네이티브 iOS나 Android 레이어까지 내려가지 않는다. 이것은 EXPO의 핵심 철학이고, EXPO를 빠르게, 사용하기 좋게 만들어주는 부분이다. "
@@ -30,7 +30,7 @@ EXPO 공식문서를 통해 위 사실을 알 수 있었습니다.
 ##### (`꾹꾹이`는 제가 팀 프로젝트로 만들었던 앱의 이름입니다.)
 
 먼저 오른쪽에 있는 네이티브 앱인 카카오톡을 볼까요?
-카카오톡같은 네이티브 앱은 코드를 컴파일하고, 모바일 기기에 설치되어 OS 레이어와 직접 상호작용하며 네이티브 환경에서 동작합니다.
+카카오톡같은 네이티브 앱은 네이티브 언어코드를 컴파일하고, 모바일 기기에 설치되어 OS 레이어와 직접 상호작용하며 네이티브 환경에서 동작합니다.
 
 반면에 우리가 작성한 자바스크립트 코드는 EXPO 모바일 클라이언트 안에서만 동작하고, JavaScript 엔진으로만 동작하기 때문에 네이티브 언어 라이브러리를 소화해 낼 수 없습니다.
 다만 EXPO 앱은 네이티브 앱이라서 OS 레이어와 상호작용을 대신 합니다. 그리고 코드를 작성할 때, React 컴포넌트로 만들어놓은 모듈들을 이용해서 단순한 웹뷰 수준을 벗어나서 네이티브한 기능을 구현할 수 있습니다.
@@ -63,8 +63,8 @@ eject를 할 때, ExpoKit이라는 네이티브 라이브러리를 남겨놓으�
 
 EXPO에 대한 모든 것은 [이 곳](https://docs.expo.io/versions/latest/)(공식문서)에서 보실 수 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MTcwNzQxLC04OTIxMTc2OTMsLTEyND
-U2OTYyMTMsLTE3NjQ4MTIxMzQsLTE0NzIzNTc1NTIsLTE5NDY1
-NDY0OTEsLTIwNTE3NjMwODQsMTYxNDAzNTgwOCwtMTQwNzc3Mz
-Y2NCwtMTY4MDgyNTY5MV19
+eyJoaXN0b3J5IjpbMTEwMzE5MjA4MywtODkyMTE3NjkzLC0xMj
+Q1Njk2MjEzLC0xNzY0ODEyMTM0LC0xNDcyMzU3NTUyLC0xOTQ2
+NTQ2NDkxLC0yMDUxNzYzMDg0LDE2MTQwMzU4MDgsLTE0MDc3Nz
+M2NjQsLTE2ODA4MjU2OTFdfQ==
 -->
