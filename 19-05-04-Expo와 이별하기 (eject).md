@@ -39,7 +39,7 @@ EXPO 공식문서를 통해 위 사실을 알 수 있었습니다.
 ![expo eject](https://lh3.googleusercontent.com/nuTs6LdeiUJkrerF4jm78VzOreZ4BWnm6KRh8WM8n-k4-mF_3TOsV5ffbOQnK-TFhl43tC-hXCA)
 
 eject를 하면 순수 JavaScript로 작성된 앱을 엑스포 모바일 클라이언트에서
-꺼내줍니다. 그러니까, 엑스포 클라이언트 없이 네이티브 환경에서 우리 앱이 동작하게 되는겁니다.
+꺼내줍니다. 다시 말해, EXPO 클라이언트 없이 네이티브 환경에서 우리 앱이 동작하게 됩니다.
 
 그런데
 엑스포에 내장된 기능들은
@@ -55,6 +55,7 @@ expo kit이라는 네이티브 라이브러리를 남겨놓으면
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDY1NDY0OTEsLTIwNTE3NjMwODQsMT
-YxNDAzNTgwOCwtMTQwNzc3MzY2NCwtMTY4MDgyNTY5MV19
+eyJoaXN0b3J5IjpbLTY3MTMxNTMzMiwtMTk0NjU0NjQ5MSwtMj
+A1MTc2MzA4NCwxNjE0MDM1ODA4LC0xNDA3NzczNjY0LC0xNjgw
+ODI1NjkxXX0=
 -->
