@@ -40,7 +40,7 @@ EXPO 공식문서를 통해 위 사실을 알 수 있었습니다.
 ## $ expo eject
 ![expo eject](https://lh3.googleusercontent.com/nuTs6LdeiUJkrerF4jm78VzOreZ4BWnm6KRh8WM8n-k4-mF_3TOsV5ffbOQnK-TFhl43tC-hXCA)
 
-eject를 하면 우리가 작성한 순수 JavaScript로 작성된 앱을 엑스포 모바일 클라이언트에서 꺼내줍니다. React-Native로만 개발한 앱으로
+eject를 하면 우리가 작성한 순수 JavaScript로 작성된 앱을 엑스포 모바일 클라이언트에서 꺼내줍니다. React-Native로만 개발하는 환경으로 변경되는 것입니다.
 다시 말해, EXPO 클라이언트 없이 네이티브 환경에서 우리 앱이 동작하게 됩니다.
 
 공식문서에도 관련 내용이 있습니다.
@@ -63,8 +63,8 @@ eject를 할 때, ExpoKit이라는 네이티브 라이브러리를 남겨놓으�
 
 EXPO에 대한 모든 것은 [이 곳](https://docs.expo.io/versions/latest/)(공식문서)에서 보실 수 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MzMzNTM1NCwtODkyMTE3NjkzLC0xMj
-Q1Njk2MjEzLC0xNzY0ODEyMTM0LC0xNDcyMzU3NTUyLC0xOTQ2
-NTQ2NDkxLC0yMDUxNzYzMDg0LDE2MTQwMzU4MDgsLTE0MDc3Nz
-M2NjQsLTE2ODA4MjU2OTFdfQ==
+eyJoaXN0b3J5IjpbMTA2MDIzMzgxLC04OTIxMTc2OTMsLTEyND
+U2OTYyMTMsLTE3NjQ4MTIxMzQsLTE0NzIzNTc1NTIsLTE5NDY1
+NDY0OTEsLTIwNTE3NjMwODQsMTYxNDAzNTgwOCwtMTQwNzc3Mz
+Y2NCwtMTY4MDgyNTY5MV19
 -->
