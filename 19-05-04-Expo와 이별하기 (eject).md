@@ -41,22 +41,10 @@ EXPO 공식문서를 통해 위 사실을 알 수 있었습니다.
 eject를 하면 순수 JavaScript로 작성된 앱을 엑스포 모바일 클라이언트에서
 꺼내줍니다. 다시 말해, EXPO 클라이언트 없이 네이티브 환경에서 우리 앱이 동작하게 됩니다.
 
-이 때 ExpoKit이라는 네이티브 라이브러리를 남겨놓으면 EXPO에 내장된 다양한 React 컴포넌트들을 이용해 네이티
-그런데
-엑스포에 내장된 기능들은
-리액트 네이티브로 사용하기 좋게
-컴포넌트화 돼있어서
-쓰기가 좋습니다.
-
-eject를 하더라도
-이 장점을 활용할 수 있는데
-expo kit이라는 네이티브 라이브러리를 남겨놓으면
-계속해서 내장 컴포넌트 사용을 즐기실 수 있습니다.
-(넘겨)
-
-
+이 때 ExpoKit이라는 네이티브 라이브러리를 남겨놓으면 EXPO에 내장된 다양한 React 컴포넌트들을 이용해 네이티브 기능들을 쉽게 사용할 수 있습니다.
+실제로 꾹꾹이 프로젝트에서도 내장된 Google 지도가 MapView라는 컴포넌트로 제공되고 있고
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI2MDU3NzY1LC0xOTQ2NTQ2NDkxLC0yMD
-UxNzYzMDg0LDE2MTQwMzU4MDgsLTE0MDc3NzM2NjQsLTE2ODA4
-MjU2OTFdfQ==
+eyJoaXN0b3J5IjpbMTA4NDQ3Nzk0MywtMTk0NjU0NjQ5MSwtMj
+A1MTc2MzA4NCwxNjE0MDM1ODA4LC0xNDA3NzczNjY0LC0xNjgw
+ODI1NjkxXX0=
 -->
