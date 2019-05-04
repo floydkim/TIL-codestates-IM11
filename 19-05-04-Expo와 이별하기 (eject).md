@@ -1,5 +1,7 @@
 # EXPO와 이별하기
 
+React-Native를 이용해 모바일 앱을 만들면서, EXPO의 
+
 ## EXPO의 동작 환경
 
 ![expo 동작 환경](https://lh3.googleusercontent.com/uI0fYPxqo0urSM60u_FbYdGwJmSspF5odKhn-RQAQufCtbJG5j9aFxuPqJ_6SXcFgCfBl2IfWVw)
@@ -13,9 +15,12 @@ EXPO-CLI와 expo 모바일 클라이언트 둘 사이의 통신을 위한 서버
 이 중 핵심은 엑스포 클라이언트입니다.
 작성한 코드가 모바일 네이티브 환경에서 직접 구동되는것이 아니고, 받아온 앱을 엑스포 클라이언트 안에서 실행시킵니다.
 
-
+EXPO 공식문서를 통해 이 사실을 알 수 있었습니다.
 > EXPO 안에 들어가는 앱은 순수 JavaScript로 작성되고, 절대로 네이티브 iOS나 Android 레이어까지 내려가지 않는다. 이것은 EXPO의 핵심 철학이고, EXPO를 빠르게, 사용하기 좋게 만들어주는 부분이다.
+
+
+![EXPO와 Native App 비교](https://lh3.googleusercontent.com/cYu8NWNwEl8EaW7nqJZ342bG0o36GSdCgEqCkE_pHhB4llyDnXgKy_Tf_Gtp8lSEXr2BCYELkSw)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMjY3MDY3MywtMTQwNzc3MzY2NCwtMT
-Y4MDgyNTY5MV19
+eyJoaXN0b3J5IjpbLTE3MzYzOTIzMzksLTE0MDc3NzM2NjQsLT
+E2ODA4MjU2OTFdfQ==
 -->
