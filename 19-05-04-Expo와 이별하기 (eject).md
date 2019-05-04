@@ -2,9 +2,9 @@
 React-Native를 이용해 모바일 앱을 만들 때, EXPO는 개발자가 앱 코딩을 빨리 시작할 수 있도록 도와줍니다.
 Xcode나 Android 프로젝트를 만들고, 프로젝트를 세팅하는 번거로움 없이 바로 코딩을 시작할 수 있게 해주는 유용한 툴입니다.
 
-그런데 EXPO는 네이티브 언어로 된 라이브러리를 이용할 수 없다는 한계가 있습니다. React-Native는 할 수 있는데 EXPO는 안됩니다.
-그래서 EXPO를 이용해 앱 개발을 하다 보면 `$ expo eject` 명령을 통해 EXPO와 이별할 수 밖에 없게 됩니다.
+그런데 EXPO는 네이티브 언어로 된 라이브러리를 이용할 수 없다는 한계가 있습니다. 그래서 EXPO를 이용해 앱 개발을 하다 보면 `$ expo eject` 명령을 통해 EXPO와 이별할 수 밖에 없게 됩니다.
 
+그React-Native는 할 수 있는데 EXPO는 안됩니다.
 EXPO는 React-Native와 어떻게 다르길래 안되는걸까요?
 
 ## EXPO의 동작 환경
@@ -51,17 +51,12 @@ eject를 하면 순수 JavaScript로 작성된 앱을 엑스포 모바일 클라
 
 엑스포의 장점은 결국, 개발자의 생산성을 높이는데 있다고 생각합니다.
 
-1. 앱 개발 초기엔 엑스포를 사용해서 생산성있게 개발하고
-2. 네이티브 기능 구현이 남은 시점에 eject해서 Third-party 라이브러리를 쓰면서 개발을 계속하는게 효율적인 프로세스가 아닐까 생각됩니다.
+앱 개발 초기엔 엑스포를 사용해서 생산성있게 개발하고
+네이티브 기능 구현이 남은 시점에 eject해서 Third-party 라이브러리를 사용해 개발을 계속하는게 효율적인 프로세스가 아닐까 생각됩니다.
 
-엑스포를 버리는 이별이 아니고
-수고해준 엑스포를 떠나보내는,
-아름다운 이별을 준비하시라는 말씀을 드리면서
-발표를 마치겠습니다.
-(넘겨)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njk3OTAxNDUsLTE5NDY1NDY0OTEsLT
+eyJoaXN0b3J5IjpbLTEwMTEwNjUwODMsLTE5NDY1NDY0OTEsLT
 IwNTE3NjMwODQsMTYxNDAzNTgwOCwtMTQwNzc3MzY2NCwtMTY4
 MDgyNTY5MV19
 -->
