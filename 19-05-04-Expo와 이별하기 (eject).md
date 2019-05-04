@@ -4,7 +4,8 @@ Xcode나 Android 프로젝트를 만들고, 프로젝트를 세팅하는 번거�
 
 그런데 EXPO는 네이티브 언어로 된 라이브러리를 이용할 수 없다는 한계가 있습니다. 그래서 EXPO를 이용해 앱 개발을 하다 보면 `$ expo eject` 명령을 통해 EXPO와 이별할 수 밖에 없게 됩니다.
 
-그React-Native는 할 수 있는데 EXPO는 안됩니다.
+이 글에서는 eject를 하는 과정이나 시행 착오를 다루지 않습니다.
+대신 React-Native는 할수있는 네이티브 모듈 사용이 EXPO에서는 왜 안되는건지
 EXPO는 React-Native와 어떻게 다르길래 안되는걸까요?
 
 ## EXPO의 동작 환경
@@ -56,7 +57,7 @@ eject를 하면 순수 JavaScript로 작성된 앱을 엑스포 모바일 클라
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTEwNjUwODMsLTE5NDY1NDY0OTEsLT
+eyJoaXN0b3J5IjpbLTE0NzIzNTc1NTIsLTE5NDY1NDY0OTEsLT
 IwNTE3NjMwODQsMTYxNDAzNTgwOCwtMTQwNzc3MzY2NCwtMTY4
 MDgyNTY5MV19
 -->
