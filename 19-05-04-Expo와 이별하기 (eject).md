@@ -21,7 +21,7 @@ EXPO-CLI와 expo 모바일 클라이언트 둘 사이의 통신을 위한 서버
 작성한 코드가 모바일 네이티브 환경에서 직접 구동되는것이 아니고, 받아온 앱을 엑스포 클라이언트 안에서 실행시킵니다.
 
 EXPO 공식문서를 통해 위 사실을 알 수 있었습니다.
-> EXPO 안에 들어가는 앱은 순수 JavaScript로 작성되고, 절대로 네이티브 iOS나 Android 레이어까지 내려가지 않는다. 이것은 EXPO의 핵심 철학이고, EXPO를 빠르게, 사용하기 좋게 만들어주는 부분이다.
+> " EXPO 안에 들어가는 앱은 순수 JavaScript로 작성되고, 절대로 네이티브 iOS나 Android 레이어까지 내려가지 않는다. 이것은 EXPO의 핵심 철학이고, EXPO를 빠르게, 사용하기 좋게 만들어주는 부분이다. "
 
 ## EXPO 앱과 Native 앱의 차이
 ![EXPO와 Native App 비교](https://lh3.googleusercontent.com/cYu8NWNwEl8EaW7nqJZ342bG0o36GSdCgEqCkE_pHhB4llyDnXgKy_Tf_Gtp8lSEXr2BCYELkSw)
@@ -44,12 +44,10 @@ eject를 하면 순수 JavaScript로 작성된 앱을 엑스포 모바일 클라
 공식문서에도 관련 내용이 있습니다.
 > " *RN Core나 Expo SDK에서 지원하지 않는* 네이티브 모듈들을 사용해야 할 때 eject를 한다.
 eject하면 순수 JavaScript로 이루어진 프로젝트를 Expo 모바일 클라이언트로부터 꺼내준다.
-그리고 code나 android studio 네이티브 프로젝트를 만든다.
-eject 후에 여전히 Expo SDK에 dependency가 있긴 하지만, 프로젝트는 더이상 엑스포 클라이언트 안에 살지(live) 않는다."
+그리고 Xcode나 Android Studio 네이티브 프로젝트를 만든다.
+eject 후에 여전히 Expo SDK에 dependency가 있긴 하지만, 프로젝트는 더이상 엑스포 클라이언트 안에 살지(live) 않는다. "
 
-요약하면, 이젝트를 하면 엑스포 프로젝트가 리액트 네이티브 프로젝트로 바뀐다는 얘기입니다.
-
-이 때 ExpoKit이라는 네이티브 라이브러리를 남겨놓으면 EXPO에 내장된 다양한 React 컴포넌트들을 이용해 네이티브 기능들을 쉽게 사용할 수 있습니다.
+eject를 할 때, ExpoKit이라는 네이티브 라이브러리를 남겨놓으면 EXPO에 내장된 다양한 React 컴포넌트들을 이용해 네이티브 기능들을 쉽게 사용할 수 있습니다.
 실제로 꾹꾹이 프로젝트에서도, EXPO의 Google 지도 컴포넌트(`<MapView />`)를 이용해 빠르게 지도 기능을 구현할 수 있었습니다.
 
 한편 eject를 다시 돌이키는것도 가능합니다. 공식문서에 방법이 소개되어 있지만 eject로 인해 소실된 일부 정보를 manual하게 다시 잡아주는 과정이 필요합니다.
@@ -59,12 +57,12 @@ eject 후에 여전히 Expo SDK에 dependency가 있긴 하지만, 프로젝트�
 
 엑스포의 장점은 결국, 개발자의 생산성을 높이는데 있다고 생각합니다.
 
-앱 개발 초기엔 엑스포를 사용해서 생산성있게 개발하고
+앱 개발 초기엔 엑스포를 사용해서 생산성있게 개발하고,
 네이티브 기능 구현이 남은 시점에 eject해서 Third-party 라이브러리를 사용해 개발을 계속하는게 효율적인 프로세스가 아닐까 생각됩니다.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMTc3MjA2NiwtMTQ3MjM1NzU1MiwtMT
-k0NjU0NjQ5MSwtMjA1MTc2MzA4NCwxNjE0MDM1ODA4LC0xNDA3
-NzczNjY0LC0xNjgwODI1NjkxXX0=
+eyJoaXN0b3J5IjpbNDA5NzUwNzk0LC0xNDcyMzU3NTUyLC0xOT
+Q2NTQ2NDkxLC0yMDUxNzYzMDg0LDE2MTQwMzU4MDgsLTE0MDc3
+NzM2NjQsLTE2ODA4MjU2OTFdfQ==
 -->
