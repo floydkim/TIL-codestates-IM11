@@ -33,7 +33,7 @@ EXPO 공식문서를 통해 위 사실을 알 수 있었습니다.
 네이티브 앱은 네이티브 언어로 작성된 코드를 컴파일해 만들어지며, 모바일 기기에 설치되어 OS 레이어와 직접 상호작용하면서 동작합니다.
 
 반면에 우리가 작성한 자바스크립트 코드는 EXPO 모바일 클라이언트 안에서만 동작하고, JavaScript 엔진으로만 동작하기 때문에 네이티브 언어로 된 라이브러리를 소화해 낼 수 없습니다.
-다만 EXPO 앱은 네이티브 앱이라서 OS 레이어와 상호작용이 가능합니다. EXPO 안에 있는 앱이 요구하는 네이티브 모듈 기능을 EXPO가 대신하는 것입니다. 그리고 코드를 작성할 때, EXPO 앱에 React 컴포넌트로 만들어놓은 모듈들을 이용해서 단순한 웹뷰 수준을 벗어나서 네이티브한 기능을 구현할 수 있습니다.
+다만 EXPO 앱은 네이티브 앱이라서 OS 레이어와 상호작용이 가능합니다. EXPO 안에 있는 앱이 요구하는 네이티브 모듈 기능을 EXPO가 대신하는 것입니다. 그리고 코드를 작성할 때, EXPO 안에 React 컴포넌트로 만들어놓은 모듈들을 이용해서 단순한 웹뷰 수준을 벗어나서 네이티브한 기능을 구현할 수 있습니다.
 
 그러나 그 기능이 EXPO에서 제공하는 기능들로 제한되기 때문에, EXPO에서 지원하지 않는 Bluetooth 컨트롤이나, 네이티브 언어로 된 모듈을 이용하려 할 때 **eject** 명령을 사용하게 됩니다.
 
@@ -63,7 +63,7 @@ eject를 할 때, ExpoKit이라는 네이티브 라이브러리를 남겨놓으�
 
 EXPO에 대한 모든 것은 [이 곳](https://docs.expo.io/versions/latest/)(공식문서)에서 보실 수 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MjAyODQyNiwtODkyMTE3NjkzLC0xMj
+eyJoaXN0b3J5IjpbLTc2OTg5NDQ5NSwtODkyMTE3NjkzLC0xMj
 Q1Njk2MjEzLC0xNzY0ODEyMTM0LC0xNDcyMzU3NTUyLC0xOTQ2
 NTQ2NDkxLC0yMDUxNzYzMDg0LDE2MTQwMzU4MDgsLTE0MDc3Nz
 M2NjQsLTE2ODA4MjU2OTFdfQ==
