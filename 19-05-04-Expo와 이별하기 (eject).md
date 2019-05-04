@@ -44,7 +44,7 @@ eject를 하면 우리가 작성한 순수 JavaScript로 작성된 앱을 엑스
 결국, EXPO 클라이언트 없이 네이티브 환경에서 우리 앱이 동작하게 됩니다.
 
 공식문서에도 관련 내용이 있습니다.
-> " *RN Core나 Expo SDK에서 지원하지 않는* 네이티브 모듈들을 사용해야 할 때 eject를 한다.
+> " **RN Core나 Expo SDK에서 지원하지 않는** 네이티브 모듈들을 사용해야 할 때 eject를 한다.
 eject하면 순수 JavaScript로 이루어진 프로젝트를 Expo 모바일 클라이언트로부터 꺼내준다.
 그리고 Xcode나 Android Studio 네이티브 프로젝트를 만든다.
 eject 후에 여전히 Expo SDK에 dependency가 있긴 하지만, 프로젝트는 더이상 엑스포 클라이언트 안에 살지(live) 않는다. "
@@ -63,8 +63,9 @@ eject를 할 때, ExpoKit이라는 네이티브 라이브러리를 남겨놓으�
 
 EXPO에 대한 모든 것은 [이 곳](https://docs.expo.io/versions/latest/)(공식문서)에서 보실 수 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc5MzIxNzg0LDEwNjAyMzM4MSwtODkyMT
-E3NjkzLC0xMjQ1Njk2MjEzLC0xNzY0ODEyMTM0LC0xNDcyMzU3
-NTUyLC0xOTQ2NTQ2NDkxLC0yMDUxNzYzMDg0LDE2MTQwMzU4MD
-gsLTE0MDc3NzM2NjQsLTE2ODA4MjU2OTFdfQ==
+eyJoaXN0b3J5IjpbNzc3Mjk5MjQ2LDQ3OTMyMTc4NCwxMDYwMj
+MzODEsLTg5MjExNzY5MywtMTI0NTY5NjIxMywtMTc2NDgxMjEz
+NCwtMTQ3MjM1NzU1MiwtMTk0NjU0NjQ5MSwtMjA1MTc2MzA4NC
+wxNjE0MDM1ODA4LC0xNDA3NzczNjY0LC0xNjgwODI1NjkxXX0=
+
 -->
