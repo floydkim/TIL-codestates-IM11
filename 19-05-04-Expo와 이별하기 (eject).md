@@ -1,4 +1,5 @@
 # EXPO와 이별하기
+![expo logo](https://lh3.googleusercontent.com/7mXyrwDonIBGjvhfM7pvRtZ8ny_JEHsh51BFE-PYgoL9xqw1UNG1_Ty-HIO-UfJ4LrUARBzbGQc=s300)
 React-Native를 이용해 모바일 앱을 만들 때, EXPO는 개발자가 앱 코딩을 빨리 시작할 수 있도록 도와줍니다.
 
 EXPO 없이 React-Native만으로 개발을 시작하려면 Xcode나 Android Studio를 설치하고, 개발자 계정을 만들어 signing을 설정하는 등의 번거로운 과정 후에 코딩을 시작하게 되는데, 그러한 loss 없이 바로 코딩을 시작할 수 있게 해주는 유용한 툴입니다.
@@ -62,7 +63,8 @@ eject를 할 때, ExpoKit이라는 네이티브 라이브러리를 남겨놓으�
 
 EXPO에 대한 모든 것은 [이 곳](https://docs.expo.io/versions/latest/)(공식문서)에서 보실 수 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDU2OTYyMTMsLTE3NjQ4MTIxMzQsLT
-E0NzIzNTc1NTIsLTE5NDY1NDY0OTEsLTIwNTE3NjMwODQsMTYx
-NDAzNTgwOCwtMTQwNzc3MzY2NCwtMTY4MDgyNTY5MV19
+eyJoaXN0b3J5IjpbLTg5MjExNzY5MywtMTI0NTY5NjIxMywtMT
+c2NDgxMjEzNCwtMTQ3MjM1NzU1MiwtMTk0NjU0NjQ5MSwtMjA1
+MTc2MzA4NCwxNjE0MDM1ODA4LC0xNDA3NzczNjY0LC0xNjgwOD
+I1NjkxXX0=
 -->
