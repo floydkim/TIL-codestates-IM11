@@ -25,6 +25,7 @@ EXPO 공식문서를 통해 위 사실을 알 수 있었습니다.
 
 ## EXPO 앱과 Native 앱의 차이
 ![EXPO와 Native App 비교](https://lh3.googleusercontent.com/cYu8NWNwEl8EaW7nqJZ342bG0o36GSdCgEqCkE_pHhB4llyDnXgKy_Tf_Gtp8lSEXr2BCYELkSw)
+##### (`꾹꾹이`는 제가 팀 프로젝트로 만들었던 앱의 이름입니다.)
 
 먼저 오른쪽에 있는 네이티브 앱인 카카오톡을 볼까요?
 카카오톡같은 네이티브 앱은 코드를 컴파일하고, 모바일 기기에 설치되어 OS 레이어와 직접 상호작용하며 네이티브 환경에서 동작합니다.
@@ -54,6 +55,6 @@ expo kit이라는 네이티브 라이브러리를 남겨놓으면
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNDA0MDY0NCwtMjA1MTc2MzA4NCwxNj
-E0MDM1ODA4LC0xNDA3NzczNjY0LC0xNjgwODI1NjkxXX0=
+eyJoaXN0b3J5IjpbLTE5NDY1NDY0OTEsLTIwNTE3NjMwODQsMT
+YxNDAzNTgwOCwtMTQwNzc3MzY2NCwtMTY4MDgyNTY5MV19
 -->
