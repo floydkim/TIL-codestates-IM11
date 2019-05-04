@@ -30,17 +30,30 @@ EXPO 공식문서를 통해 위 사실을 알 수 있었습니다.
 카카오톡같은 네이티브 앱은 코드를 컴파일하고, 모바일 기기에 설치되어 OS 레이어와 직접 상호작용하며 네이티브 환경에서 동작합니다.
 
 반면에 우리가 작성한 자바스크립트 코드는 EXPO 모바일 클라이언트 안에서만 동작하고, JavaScript 엔진으로만 동작하기 때문에 네이티브 언어 라이브러리를 소화해 낼 수 없습니다.
-다만 EXPO 앱은 네이티브 앱이라서 OS 레이어와 상호작용을 대신 합니다. 그리고 코드를 작성할 때 React 컴포넌트로 만들어놓은 모듈들을 이용할 수 있기 때문에 단순한 웹뷰 수준을 벗어나서 네이티브한 기능을 구현할 수 있습니다.
+다만 EXPO 앱은 네이티브 앱이라서 OS 레이어와 상호작용을 대신 합니다. 그리고 코드를 작성할 때, React 컴포넌트로 만들어놓은 모듈들을 이용해서 단순한 웹뷰 수준을 벗어나서 네이티브한 기능을 구현할 수 있습니다.
 
 그러나 그 기능이 EXPO에서 제공하는 기능들로 제한되기 때문에, EXPO에서 지원하지 않는 Bluetooth 컨트롤이나, 네이티브 언어로 된 모듈을 이용하려 할 때 **eject** 명령을 사용하게 됩니다.
 
 ## $ expo eject
 ![expo eject](https://lh3.googleusercontent.com/nuTs6LdeiUJkrerF4jm78VzOreZ4BWnm6KRh8WM8n-k4-mF_3TOsV5ffbOQnK-TFhl43tC-hXCA)
 
+eject를 하면 순수 JavaScript로 작성된 앱을 엑스포 모바일 클라이언트에서
+꺼내줍니다.그러니까, 엑스포 클라이언트 없이 네이티브 환경에서 꾹꾹이가 동작하게 되는겁니다.
 
+그런데
+엑스포에 내장된 기능들은
+리액트 네이티브로 사용하기 좋게
+컴포넌트화 돼있어서
+쓰기가 좋습니다.
+
+eject를 하더라도
+이 장점을 활용할 수 있는데
+expo kit이라는 네이티브 라이브러리를 남겨놓으면
+계속해서 내장 컴포넌트 사용을 즐기실 수 있습니다.
+(넘겨)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MjUxNTU3MCwtMjA1MTc2MzA4NCwxNj
+eyJoaXN0b3J5IjpbLTUxMTg4NjY0MywtMjA1MTc2MzA4NCwxNj
 E0MDM1ODA4LC0xNDA3NzczNjY0LC0xNjgwODI1NjkxXX0=
 -->
