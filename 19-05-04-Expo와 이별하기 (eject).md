@@ -57,11 +57,11 @@ eject를 할 때, ExpoKit이라는 네이티브 라이브러리를 남겨놓으�
 
 엑스포의 장점은 결국, 개발자의 생산성을 높이는데 있다고 생각합니다.
 
-초기엔 EXPO를 사용해서 React-Native 앱 개발의 생산성을 높이고, native한 기능 구현이 남은 시점에 eject해서 목표하는 기능을 구현하는 것이 효율적인 프로세스가 아닐까 생각됩ㄴ
+초기엔 EXPO를 사용해서 React-Native 앱 개발의 생산성을 높이고, native한 기능 구현이 남은 시점에 eject해서 목표하는 기능을 구현하는 것이 효율적인 프로세스가 아닐까 생각됩니다.
 
-
+EXPO에 대한 모든 것은 [이 곳](https://docs.expo.io/versions/latest/)(공식문서)에서 보실 수 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNzk0MDMzMiwtMTQ3MjM1NzU1MiwtMT
-k0NjU0NjQ5MSwtMjA1MTc2MzA4NCwxNjE0MDM1ODA4LC0xNDA3
-NzczNjY0LC0xNjgwODI1NjkxXX0=
+eyJoaXN0b3J5IjpbLTE3NjQ4MTIxMzQsLTE0NzIzNTc1NTIsLT
+E5NDY1NDY0OTEsLTIwNTE3NjMwODQsMTYxNDAzNTgwOCwtMTQw
+Nzc3MzY2NCwtMTY4MDgyNTY5MV19
 -->
