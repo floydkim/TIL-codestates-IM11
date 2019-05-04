@@ -7,7 +7,7 @@ EXPO 없이 React-Native만으로 개발을 시작하려면 Xcode나 Android Stu
 그런데 EXPO는 네이티브 언어로 된 라이브러리를 이용할 수 없다는 한계가 있습니다. 그래서 EXPO를 이용해 앱 개발을 하다 보면 `$ expo eject` 명령을 통해 EXPO와 이별할 수 밖에 없게 됩니다.
 
 이 글에서는 eject를 하는 과정이나 시행 착오를 다루지 않습니다.
-대신 React-Native는 할수있는 네이티브 모듈 사용이 EXPO에서는 왜 안되는건지 고민해보겠습니다.
+대신, React-Native는 할수있는 네이티브 모듈 사용이 EXPO에서는 왜 안되는건지 고민해보겠습니다.
 
 ## EXPO의 동작 환경
 
@@ -63,8 +63,8 @@ eject를 할 때, ExpoKit이라는 네이티브 라이브러리를 남겨놓으�
 
 EXPO에 대한 모든 것은 [이 곳](https://docs.expo.io/versions/latest/)(공식문서)에서 보실 수 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MjExNzY5MywtMTI0NTY5NjIxMywtMT
-c2NDgxMjEzNCwtMTQ3MjM1NzU1MiwtMTk0NjU0NjQ5MSwtMjA1
-MTc2MzA4NCwxNjE0MDM1ODA4LC0xNDA3NzczNjY0LC0xNjgwOD
-I1NjkxXX0=
+eyJoaXN0b3J5IjpbLTk3MzQ0MjE3NSwtODkyMTE3NjkzLC0xMj
+Q1Njk2MjEzLC0xNzY0ODEyMTM0LC0xNDcyMzU3NTUyLC0xOTQ2
+NTQ2NDkxLC0yMDUxNzYzMDg0LDE2MTQwMzU4MDgsLTE0MDc3Nz
+M2NjQsLTE2ODA4MjU2OTFdfQ==
 -->
