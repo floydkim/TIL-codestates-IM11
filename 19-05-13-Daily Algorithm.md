@@ -24,7 +24,11 @@ function sockMerchant(n, ar) {
 처음 생각했던 알고리즘에서 좀 고쳐서 for문 한번만으로 O(n) complexity 갖도록 풀었다.
 
 ### codility
-10진수 N이 주어졌을 때, 이걸 2진수로 바
+10진수 N이 주어지고 이걸 2진수로 표현했을때 1과 1 사이의 거리(binary gap)를 구한다. gap이 여럿 있다면, 가장 큰 gap을 정수로 리턴하는 문제.
+
+(ex) 10001001 이라면, gap은 3과 2가 있는데, 3을 리턴하면 된다.
+
+(ex) 10000 이라면, gap
 
 ```javascript
 function solution(N) {
@@ -57,5 +61,5 @@ function solution(N) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzY4NjYyMzksNzA1NzM0OTgwXX0=
+eyJoaXN0b3J5IjpbLTY0MTY0MjU3NCw3MDU3MzQ5ODBdfQ==
 -->
