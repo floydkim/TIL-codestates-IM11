@@ -1,9 +1,8 @@
 # Daily Algorithm
 ### Haker rank
-`ar` : 양말의 색을 숫자로 표현한 어레이
+- `ar` : 양말의 색을 숫자로 표현한 어레이
 만약 [10, 20, 20, 10, 10, 30]이 주어졌다면, 같은 색 양말이 10 한 쌍, 20 한 쌍으로 총 두 쌍 존재하며 그 총 수를 리턴하는 문제.
-
-
+- `n`: 총 양말 수. 왜 준건지 모르겠다.
 
 ```javascript
 function sockMerchant(n, ar) {
@@ -22,9 +21,10 @@ function sockMerchant(n, ar) {
     return count;
 }
 ```
+처음 생각했던 알고리즘에서 좀 고쳐서 for문 한번만으로 O(n) complexity 갖도록 풀었다.
 
 ### codility
-
+10진수 N이 주어졌을 때, 이걸 2진수로 바
 
 ```javascript
 function solution(N) {
@@ -57,5 +57,5 @@ function solution(N) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MTM5MDIwNiw3MDU3MzQ5ODBdfQ==
+eyJoaXN0b3J5IjpbLTIxMzY4NjYyMzksNzA1NzM0OTgwXX0=
 -->
