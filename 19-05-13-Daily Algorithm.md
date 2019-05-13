@@ -28,7 +28,7 @@ function sockMerchant(n, ar) {
 
 (ex) 10001001 이라면, gap은 3과 2가 있는데, 3을 리턴하면 된다.
 
-(ex) 10000 이라면, gap
+(ex) 10000 이라면, gap이 없으니 0 리턴할 것. 1111 이라면, gap은 0이니 0을 리턴할 것.
 
 ```javascript
 function solution(N) {
@@ -61,5 +61,5 @@ function solution(N) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MTY0MjU3NCw3MDU3MzQ5ODBdfQ==
+eyJoaXN0b3J5IjpbMTg3MTQyODEyNCw3MDU3MzQ5ODBdfQ==
 -->
