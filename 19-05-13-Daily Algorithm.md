@@ -1,5 +1,8 @@
 # Daily Algorithm
-Haker rank
+> Haker rank
+
+
+
 ```javascript
 function sockMerchant(n, ar) {
     let dic = {};
@@ -17,6 +20,7 @@ function sockMerchant(n, ar) {
     return count;
 }
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAxMTEyMjM4XX0=
+eyJoaXN0b3J5IjpbNzA1NzM0OTgwXX0=
 -->
