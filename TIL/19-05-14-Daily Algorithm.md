@@ -21,9 +21,13 @@ function solution(A) {
         }
     });
     
-    return Number(Object.keys(nominee)[0])
+    const keys = Object.keys(nominee);
+    if (keys.length === 0) {
+        return 0;
+    }
+    return Number(keys[0])
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2ODA3NTQwNCwyODA4NDQ3MjFdfQ==
+eyJoaXN0b3J5IjpbLTEzODY2OTQ1MTMsMjgwODQ0NzIxXX0=
 -->
