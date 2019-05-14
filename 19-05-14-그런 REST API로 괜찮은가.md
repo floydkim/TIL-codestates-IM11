@@ -1,6 +1,6 @@
 # 그런 REST API로 괜찮은가
 
-[Naver DEVIEW 2017 : 이응준님 발표](https://tv.naver.com/v/2292653)
+[Naver DEVIEW 2017 : 이응준님 발표](https://tv.naver.com/v/2292653)를 들으며 듬성듬성 정리한 것입니다.
 
 - REST란?
 컴퓨터 시스템간의 상호 운용성을 제공하는 방법 중 하나
@@ -61,5 +61,6 @@ REST를 제대로 지켜 API를 만드는 것은 너무 어려운(혹은 비효�
 이미 REST아닌 REST API들이 보편화 되어있으니 너무 애쓰지 않아도 된다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzQwNTk2MjQsLTI4MDA1MTg5Ml19
+eyJoaXN0b3J5IjpbLTc2NDI1MTgyNywtMTQ3NDA1OTYyNCwtMj
+gwMDUxODkyXX0=
 -->
