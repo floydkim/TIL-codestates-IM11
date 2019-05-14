@@ -1,7 +1,11 @@
 # Daily Algorithm
 19-05-14
 ### Codility
+A 배열은 다음 엘리먼트들로 이뤄져있다: 짝을 이루는 숫자들, 짝을 이루지 않는 하나의 숫자.
 
+짝을 이루지 않는 숫자를 리턴한다.
+
+(codility의 테스트는 
 ```js
 function solution(A) {
     // 1. 엘리먼트의 값을 key로, 각 값에 해당하는 엘리먼트 개수를 센다.
@@ -29,5 +33,5 @@ function solution(A) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODY2OTQ1MTMsMjgwODQ0NzIxXX0=
+eyJoaXN0b3J5IjpbNTEwMTAyOTM5LDI4MDg0NDcyMV19
 -->
