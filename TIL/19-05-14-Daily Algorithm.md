@@ -32,10 +32,14 @@ function solution(A) {
 }
 ```
 
-깔끔하게 풀지는 못한거같다. 테스트 케이스를 모두 알 수 없어서, 제출 후 결과로 어떤부분이 문제인지 유추해야 하는
+깔끔하게 풀지는 못한거같다. 테스트 케이스를 모두 알 수 없어서, 제출 후 결과로 어떤부분이 문제인지 유추해야 했다.
+
+문제 설명에는 하나의 엘리먼트를 제외하고 각 쌍이 유니크한 값으로 짝을 이루는 것 처럼 써놨는데, 테스트 케이스에는 [1, 1, 1, 2, 2] 처럼, 홀수개 존재하는 경우도 포함된다.
+
+그 경우에 대응하기 위해서 dict에 해당 숫자
 
 > Detected time complexity: O(N) or O(N*log(N))
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAyNjUwODEsLTIwMTUyMTg4NDEsNjMzMj
-I4ODQ5LDI4MDg0NDcyMV19
+eyJoaXN0b3J5IjpbLTYzNjQxNTQyNCwtMjAxNTIxODg0MSw2Mz
+MyMjg4NDksMjgwODQ0NzIxXX0=
 -->
