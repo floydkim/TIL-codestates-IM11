@@ -36,10 +36,12 @@ function solution(A) {
 
 문제 설명에는 하나의 엘리먼트를 제외하고 각 쌍이 유니크한 값으로 짝을 이루는 것 처럼 써놨는데, 테스트 케이스에는 [1, 1, 1, 2, 2] 처럼, 홀수개 존재하는 경우도 포함된다.
 
-그 경우에 대응하기 위해서 dict에 숫자를 센게 이미 짝수(사실 2인 경우만 써도 작동할거다)개 존재하는 경우 
+그 경우에 대응하기 위해서 dict에 숫자를 센게 이미 짝수(사실 2인 경우만 써도 작동할거다)개 존재하는 경우에 nominee에 다시 그 수를 등록하도록 했다.
+
+어쨌든 O(n) 수준으로 해결했다..
 
 > Detected time complexity: O(N) or O(N*log(N))
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMDU1MjY1LC0yMDE1MjE4ODQxLDYzMz
-IyODg0OSwyODA4NDQ3MjFdfQ==
+eyJoaXN0b3J5IjpbLTcwMzk3MTM4NywtMjAxNTIxODg0MSw2Mz
+MyMjg4NDksMjgwODQ0NzIxXX0=
 -->
