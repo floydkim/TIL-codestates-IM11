@@ -15,11 +15,11 @@ function solution(A) {
     const dict = {};
     const nominee = {};
     A.forEach(cur => {
-        if (!dict[cur]) {
+        if (!dict[cur] || dict[cur] % 2 === 0) {
             dict[cur] = 1;
             nominee[cur] = cur;
         } else {
-            // dict[cur] += 1;
+            dict[cur] += 1;
             delete nominee[cur];
         }
     });
@@ -37,6 +37,6 @@ function solution(A) {
 codility의 테스트는 999,999 length의 랜덤 내용 배열까지 테스트한다.
 사실 어레이 length가 문제가 아니고, 테스트시 들어오는 어레이의 내용을 알 수가 없는데, 위 답안은 nominee 오브젝트에 key가 아무것도 남지 않는 상황 즉 모든 엘리먼트들이 짝을 이룰 때 0을 리턴하도록 했지만 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTUyMTg4NDEsNjMzMjI4ODQ5LDI4MD
-g0NDcyMV19
+eyJoaXN0b3J5IjpbLTU0Njc4MzU4MSwtMjAxNTIxODg0MSw2Mz
+MyMjg4NDksMjgwODQ0NzIxXX0=
 -->
