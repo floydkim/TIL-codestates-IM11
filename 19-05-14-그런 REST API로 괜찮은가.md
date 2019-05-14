@@ -42,22 +42,24 @@ HATEOAS
 애플리케이션의 상태는 Hyperlink를 이용해 전이되어야 한다.
 : HTML은 하이퍼링크를 통해서 다른 기능(화면)으로 넘어가므로 HATEOAS 만족한다.
 
+---
+
 SOAP가 어렵고 규칙도 많아서 REST가 성공했지만, 알고보면 REST도 어렵다.
 
 REST는 HTTP와 웹의 진화, 독립적 진화에 큰 영향을 주었지만..
-REST API를 제대로 하는것은 너무 어려운 일이다.
+REST를 제대로 지켜 API를 만드는 것은 너무 어려운(혹은 비효율적인) 일이다.
 
-시스템 전체를 통제할 수 있다고 생각하거나, 진화에 관심이 없다면, REST에 대해 따지느라 시간을 낭비하지 마라
-- 로이 필딩
+> 시스템 전체를 통제할 수 있다고 생각하거나, 진화에 관심이 없다면, REST에 대해 따지느라 시간을 낭비하지 마라
+-- 로이 필딩
 
 
 오늘날, 다들 REST API가 아니지만 REST API라고 부른다.
 로이 필딩은, 제발 제약 조건을 따르던지, 아니면 다른 단어를 쓰라고 말하고있지만..
 
 
-결론은, JSON을 갖고도 REST API를 만들기 위한 방법은 분명 여럿 존재하지만 단점들이 있고..
+**결론은,** (JSON을 갖고도) REST API를 만들기 위한 방법은 분명 여럿 존재하지만 단점들이 있고..
 이미 REST아닌 REST API들이 보편화 되어있으니 너무 애쓰지 않아도 된다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMzM0MTA1NCwtMjgwMDUxODkyXX0=
+eyJoaXN0b3J5IjpbLTE0NzQwNTk2MjQsLTI4MDA1MTg5Ml19
 -->
