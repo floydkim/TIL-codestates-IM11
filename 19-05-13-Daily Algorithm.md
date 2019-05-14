@@ -1,4 +1,5 @@
 # Daily Algorithm
+19-05-13
 ### Haker rank
 - `ar` : 양말의 색을 숫자로 표현한 어레이
 만약 [10, 20, 20, 10, 10, 30]이 주어졌다면, 같은 색 양말이 10 한 쌍, 20 한 쌍으로 총 두 쌍 존재하며 그 총 수를 리턴하는 문제.
@@ -61,5 +62,6 @@ function solution(N) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MTQyODEyNCw3MDU3MzQ5ODBdfQ==
+eyJoaXN0b3J5IjpbLTgwNDIyMTcyMywxODcxNDI4MTI0LDcwNT
+czNDk4MF19
 -->
