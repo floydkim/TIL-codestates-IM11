@@ -13,35 +13,36 @@ REST API : REST 아키텍쳐 스타일을 따르는 API.
 분산 하이퍼미디어 시스템(예: 웹)을 위한 아키텍쳐 스타일(인데, 스타일들의 집합임)
 
 REST를 구성하는 스타일
--client-server
--stateless
--cache
--uniform interface
--layered system
--code-on-demand (optional) : 서버에서 코드를 클라이언트에 보내서 실행할 수 있어야 한다 (자바스크립트처럼)
+- client-server
+- stateless
+- cache
+- uniform interface
+- layered system
+- code-on-demand (optional) : 서버에서 코드를 클라이언트에 보내서 실행할 수 있어야 한다 (자바스크립트처럼)
 
 uniform interface의 제약조건
--identification of resources : 리소스가 uri로 식별되어야 한다
--manipulation of resources through representations : representation 전송을 통해서 리소스를 조작해야 한다
--self-descriptive messages : 못지키고있다
--hypermedia as the engine of application state (HATEOAS) : 못지키고있다
-
+- identification of resources : 리소스가 uri로 식별되어야 한다
+- manipulation of resources through representations : representation 전송을 통해서 리소스를 조작해야 한다
+- self-descriptive messages : 못지키고있다
+- hypermedia as the engine of application state (HATEOAS) : 못지키고있다
 
 self-descriptive message
+```
 GET / HTTP1.1
-Host: www.example.org   <- 목적지까지 들어가야 self-descriptive하다
-
+Host: www.example.org  // <- 목적지까지 들어가야 self-descriptive하다
+```
+```
 HTTP/1.1 200 OK
 Content-Type: application/json-patch+json      <- 내용이 어떤형식인지 나타내야 self-descriptive하다
 [{"op":"Remove, "path":"/a/b/c"}]
-게다가, op가 뭔지, path가 뭔지 이해 못하니까 json-patch+json 이라고 형식을 알면 내용을 알수있게 만들어야한다
-
+// 게다가, op가 뭔지, path가 뭔지 이해 못하니까 json-patch+json 이라고 형식을 알면 내용을 알수있게 만들어야한다
+```
 
 HATEOAS
 애플리케이션의 상태는 Hyperlink를 이용해 전이되어야 한다.
-: HTML는 하이퍼링크를 통해서 다른 기능(화면)으로 넘어가므로 HATEOAS 만족한다.
+: HTML은 하이퍼링크를 통해서 다른 기능(화면)으로 넘어가므로 HATEOAS 만족한다.
 
-REST도 어렵다.
+SOAP가 어렵고 규칙도 많아서 REST가 성공했지만, 알고보면 REST도 어렵다.
 
 REST는 HTTP와 웹의 진화, 독립적 진화에 큰 영향을 주었지만..
 REST API를 제대로 하는것은 너무 어려운 일이다.
@@ -58,5 +59,5 @@ REST API를 제대로 하는것은 너무 어려운 일이다.
 이미 REST아닌 REST API들이 보편화 되어있으니 너무 애쓰지 않아도 된다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3Njc0MTA5NSwtMjgwMDUxODkyXX0=
+eyJoaXN0b3J5IjpbLTgzMzM0MTA1NCwtMjgwMDUxODkyXX0=
 -->
