@@ -32,11 +32,10 @@ function solution(A) {
 }
 ```
 
+깔끔하게 풀지는 못한거같다. 테스트 케이스를 모두 알 수 없어서, 제출 후 결과로 어떤부분이 문제인지 유추해야 하는
 
-
-codility의 테스트는 999,999 length의 랜덤 내용 배열까지 테스트한다.
-사실 어레이 length가 문제가 아니고, 테스트시 들어오는 어레이의 내용을 알 수가 없는데, 위 답안은 nominee 오브젝트에 key가 아무것도 남지 않는 상황 즉 모든 엘리먼트들이 짝을 이룰 때 0을 리턴하도록 했지만 
+> Detected time complexity: O(N) or O(N*log(N))
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0Njc4MzU4MSwtMjAxNTIxODg0MSw2Mz
-MyMjg4NDksMjgwODQ0NzIxXX0=
+eyJoaXN0b3J5IjpbNzAyNjUwODEsLTIwMTUyMTg4NDEsNjMzMj
+I4ODQ5LDI4MDg0NDcyMV19
 -->
