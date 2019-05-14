@@ -2,7 +2,7 @@
 
 [Naver DEVIEW 2017 : 이응준님 발표](https://tv.naver.com/v/2292653)
 
-REST란?
+- REST란?
 컴퓨터 시스템간의 상호 운용성을 제공하는 방법 중 하나
 
 SOAP 과 REST가 경쟁하는 듯 했으나, SOAP는 복잡하고 불편해서 REST가 이김.
@@ -10,7 +10,7 @@ SOAP 과 REST가 경쟁하는 듯 했으나, SOAP는 복잡하고 불편해서 R
 REST가 대세였긴 한데, REST 창안자 로이 필딩이 말하는 REST API를 제대로 구현하는 사례가 없었다.
 
 REST API : REST 아키텍쳐 스타일을 따르는 API.
-분산 하이퍼미디어 시스템(예: 웹)을 위한 아키텍쳐 스타일 (인데, 스타일들의 집합임)
+분산 하이퍼미디어 시스템(예: 웹)을 위한 아키텍쳐 스타일(인데, 스타일들의 집합임)
 
 REST를 구성하는 스타일
 -client-server
@@ -58,5 +58,5 @@ REST API를 제대로 하는것은 너무 어려운 일이다.
 이미 REST아닌 REST API들이 보편화 되어있으니 너무 애쓰지 않아도 된다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MDA1MTg5Ml19
+eyJoaXN0b3J5IjpbLTM3Njc0MTA5NSwtMjgwMDUxODkyXX0=
 -->
