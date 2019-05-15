@@ -1,7 +1,7 @@
 # Daily Algorithm
 19-05-15
 ### Codility
-
+A 어레이가 주어지고, K 정수 만큼 
 ```js
 function solution(A, K) {
     // boundary condition 적용
@@ -9,9 +9,9 @@ function solution(A, K) {
     // 자연스럽게 loop이 형성된다.
     
     // 길이만큼 미뤄서 변화가 없어야 할 경우 바로 원본 어레이 리턴
-    // if (A.length / K === 1) {
-    //     return A;
-    // }
+    if (A.length / K === 1) {
+        return A;
+    }
     
     let resultArr = [];
     for (let i = 0; i < A.length; i++) {
@@ -22,6 +22,6 @@ function solution(A, K) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NTg1NjIxLC03NzM1NDU5OTMsMTE1NT
+eyJoaXN0b3J5IjpbMjE4ODQ5MjkyLC03NzM1NDU5OTMsMTE1NT
 M1MDc5MV19
 -->
