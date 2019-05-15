@@ -3,8 +3,6 @@
 ### Codility
 A 어레이가 주어지고, K 정수 만큼 오른쪽으로 어레이 내용을 미루는 문제. (rotate 시키는 문제)
 
-pop과 unshift를 이용해 하나씩 옮겨줄 수도 있겠지만, 이전에 물리 계산 C 프로그램 짤 때 boundary condition을 만들던것 생각나서 array의 length라는 boundary를 벗어날 때 array의 0번 인덱스쪽으로 연결하는 방식으로 궇
-
 ```js
 function solution(A, K) {
     // boundary condition 적용
@@ -23,8 +21,10 @@ function solution(A, K) {
     return resultArr;
 }
 ```
+pop과 unshift를 이용해 하나씩 옮겨줄 수도 있겠지만, 이전에 물리 계산 C 프로그램 짤 때 boundary condition을 만들던것 생각나서 array의 length라는 boundary를 벗어날 때 array의 0번 인덱스쪽으로 연결하는 방식으로 구현했다.
 
+처음에는 resultArr[i] = A[(i + K) % A.length] 이렇게 할당해서 제대로 동작하지 않았는데, 그림그리면서 곰곰히 생각해보니 할당을 잘못하고있음을 깨달았다. 고친 코드로 테스트를 무사히 통과했다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MDY4NjI2OSwtNzczNTQ1OTkzLDExNT
-UzNTA3OTFdfQ==
+eyJoaXN0b3J5IjpbLTIxMDIwMzI1OTAsLTc3MzU0NTk5MywxMT
+U1MzUwNzkxXX0=
 -->
