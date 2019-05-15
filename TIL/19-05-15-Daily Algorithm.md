@@ -9,18 +9,19 @@ function solution(A, K) {
     // 자연스럽게 loop이 형성된다.
     
     // 길이만큼 미뤄서 변화가 없어야 할 경우 바로 원본 어레이 리턴
-    if (A.length / K === 1) {
-        return A;
-    }
+    // if (A.length / K === 1) {
+    //     return A;
+    // }
     
     let resultArr = [];
     for (let i = 0; i < A.length; i++) {
-        resultArr[i] = A[(i + K - 1) % A.length];
+        resultArr[(i + K) % A.length] = A[i];
     }
     return resultArr;
 }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MzU0NTk5MywxMTU1MzUwNzkxXX0=
+eyJoaXN0b3J5IjpbLTY0NTg1NjIxLC03NzM1NDU5OTMsMTE1NT
+M1MDc5MV19
 -->
