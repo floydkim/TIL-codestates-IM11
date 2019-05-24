@@ -13,10 +13,14 @@ $ expo init
 기본적으로 3개의 스크린과 이 스크린을 이동하기 위한 하단 탭 네비게이터를 제공한다.
 
 - 프로젝트의  화면 구성
+1. 로그인/가입
+2. 적립
+3. 검색
+	
 
 
 - 인증 flow 구현
 공식 문서에 [예제]([https://reactnavigation.org/docs/en/auth-flow.html](https://reactnavigation.org/docs/en/auth-flow.html))가 있다
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDgzNzgwLDEwNjk2MjA3MTVdfQ==
+eyJoaXN0b3J5IjpbLTk1MzQ2NzM3NSwxMDY5NjIwNzE1XX0=
 -->
