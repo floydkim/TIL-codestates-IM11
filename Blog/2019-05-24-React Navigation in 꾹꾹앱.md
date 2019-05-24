@@ -1,10 +1,14 @@
 React Native로 모바일 앱 개발
 
-공식 문서의 안내에 따라 expo로 boilerplate를 만들게 되었다. ex
+공식 문서의 안내에 따라 expo로 boilerplate를 만들게 되었다.
+```bash
+$ expo init
+```
+명령을 실행하면 navigation이 없는 빈 스크린 / navigation을 포함한 boilerplate를 선택할 수 있고, 프로젝트에서는 앱의 다양한 기능을 구분짓기 위해 navigation이 필요했다
 
 이 글에서는 
 기본적으로 3개의 스크린과 이 스크린을 이동하기 위한 하단 탭 네비게이터를 제공한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTkwNTkyNzgsMTI1MzI5OTc2MywtMz
-c1NDc1MDI2XX0=
+eyJoaXN0b3J5IjpbNDQ3NDI3ODUyLDEyNTMyOTk3NjMsLTM3NT
+Q3NTAyNl19
 -->
