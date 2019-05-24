@@ -6,7 +6,7 @@ category: TIL
 2019-05-24
 ## Programmers
 ### 약수의 합
-
+정수 n (0 포함 양수)이 주어졌을 때 n의 모든 약수를 더한 숫자를 리턴하는 문제.
 ```js
 function solution(n) {
     // 1. n의 모든 약수를 구한다
@@ -21,6 +21,7 @@ function solution(n) {
     return answer;
 }
 ```
+단순하게 1부터 n-1까지 모두 나눠봐서 나머지
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMTAzNDkxMV19
+eyJoaXN0b3J5IjpbNTgzNzMzMjU1LC02MjEwMzQ5MTFdfQ==
 -->
