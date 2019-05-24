@@ -26,18 +26,17 @@ function solution(n) {
 
 Time Complexity는 O(n)인데, n의 제곱근까지만 계산해도 모든 약수를 구할 수 있다.
 
+아래 코드는 
 ```js
 function solution(n) {
     let answer = 0;
-    if (Math.sqrt(n) % 1 === 0) {
-	    // n이 제곱수 형태라면 제곱근을 answer에 더해놓는다.
-        answer += Math.sqrt(n);
-    }
-    for (let i = 1; i * i < n; i++) {
+    for (let i = 1; i * i <= n; i++) {
         if (n % i === 0) {
-	        // 나누어 떨어진다면 제수와 몫이 둘 다 약수라는 뜻이므로 더한다.
+            // 나누어 떨어진다면 제수와 몫이 둘 다 약수라는 뜻이므로 더한다.
             answer += i;
-            answer += Math.trunc(n / i);
+            if (i * i !== n) {
+                answer += Math.trunc(n / i);
+            }
         }
     }
     return answer;
@@ -46,6 +45,6 @@ function solution(n) {
 아쉬운 점은, 제곱근을 아래 for문 안에서 처리하고 싶은데 그렇게 못하겠다는거다.
 (그리고 반복에 n을 포함시키면 n이 제곱수인 경우 제곱근을 두번 더한다. 예를들어 4의 약수는 1, 2, 4인데 for문을 돌고나면 1+4+2+2가 된다.)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI5MTEyMTQsMTAwMjE3MjYsLTYyMTAzND
-kxMV19
+eyJoaXN0b3J5IjpbLTgwMzE0Nzg1NCwxMDAyMTcyNiwtNjIxMD
+M0OTExXX0=
 -->
