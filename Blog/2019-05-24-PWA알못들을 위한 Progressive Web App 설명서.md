@@ -1,8 +1,9 @@
 
 # PWA알못들을 위한 Progressive Web App 설명서
-An explanation of Progressive Web Apps for the non-PWA crowd
+원제: An explanation of Progressive Web Apps for the non-PWA crowd
 [이 글](https://medium.freecodecamp.org/an-explanation-of-progressive-web-apps-for-the-non-pwa-crowd-8a400e275ea1)의 (의역을 포함한) 번역입니다.
 
+---
 
 어플리케이션의 세계는 그리 오래되지 않은 과거에 두 카테고리로 구분되었습니다. 안드로이드와 iOS로 각각 어플리케이션을 만들게 되었죠. PWA. 길게 얘기하면 Progressive Web Applications 이라고 합니다. 아마 최근 몇 년 사이에 한번씩 들어보셨겠지만 PWA가 무엇인지는 잘 모르실겁니다. PWA의 인기가 높아지고 있으니 모든 소란이 무엇에 관한 것인지 알아보는 것이 좋을 겁니다.
 
@@ -52,7 +53,8 @@ display는 네가지 다른 값을 가집니다:
 - minimal-ui : 약간의 브라우저 컨트롤을 제공합니다. (크롬 모바일에서만 지원합니다)
 - browser : 이름이 말해주듯이 앱이 브라우저 환경의 경험과 동일하게 표현됩니다.
 
-또한 orientation(가로방향/세로방향)을 설정할 수 있고, 앱 안에 있는것으로 간주되는 페이지들의 scope를 설정할 수 있습니다. (역자 주 : 찾아보니 scope를 벗어나는 페이지 요청의 경우 앱의 유효범위 밖으로 이동하는 것으로 간주하고 새로운 브라우저를 실행하거나, deep link 기능을 통해 다른 네이티브 앱으로 전환시킬 수 있다고 합니다. 어렵네요. [w3c 스펙](https://w3c.github.io/manifest/))
+또한 orientation(가로방향/세로방향)을 설정할 수 있고, 앱 안에 있는것으로 간주되는 페이지들의 scope를 설정할 수 있습니다.
+(역자 주 : 찾아보니 scope를 벗어나는 페이지 요청의 경우 앱의 유효범위 밖으로 이동하는 것으로 간주하고 새로운 브라우저를 실행하거나, deep link 기능을 통해 다른 네이티브 앱으로 전환시킬 수 있다고 합니다. 어렵네요. [w3c 스펙](https://w3c.github.io/manifest/))
 
 잊지 말고 메인 HTML 파일에 매니페스트를 추가하세요. 다음 메타 태그를 head 태그 안에 넣으세요.
 ```html
@@ -281,5 +283,5 @@ Run audits 버튼을 클릭해 감사(audit)을 수행할 수 있습니다. 1~2�
 [MDN](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)에도 상세하고 긴 글이 있습니다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njk1NjAxMjVdfQ==
+eyJoaXN0b3J5IjpbLTI2MDkzNzc5NF19
 -->
