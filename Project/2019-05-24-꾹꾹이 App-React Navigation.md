@@ -15,12 +15,12 @@ $ expo init
 - 프로젝트의  화면 구성
 1. 로그인/가입
 2. 적립
-3. 검색
-	
+3. 검색 - 매장 정보 - 토스하기
+4. 로그아웃
 
 
 - 인증 flow 구현
 공식 문서에 [예제]([https://reactnavigation.org/docs/en/auth-flow.html](https://reactnavigation.org/docs/en/auth-flow.html))가 있다
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MzQ2NzM3NSwxMDY5NjIwNzE1XX0=
+eyJoaXN0b3J5IjpbLTE0OTI3ODY3OTgsMTA2OTYyMDcxNV19
 -->
