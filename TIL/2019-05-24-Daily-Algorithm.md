@@ -44,8 +44,8 @@ function solution(n) {
 }
 ```
 아쉬운 점은, 제곱근을 아래 for문 안에서 처리하고 싶은데 그렇게 못하겠다는거다.
-(그리고 반복에 n을 포함시키면 n이 제곱수인 경우 제곱근을 두번 더한다. 예를들어 4의 약수는 1, 2, 4ㅇ
+(그리고 반복에 n을 포함시키면 n이 제곱수인 경우 제곱근을 두번 더한다. 예를들어 4의 약수는 1, 2, 4인데 for문을 돌고나면 1+4+2+2가 된다.)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0Mjk5NDc2MywxMDAyMTcyNiwtNjIxMD
-M0OTExXX0=
+eyJoaXN0b3J5IjpbMzI5MTEyMTQsMTAwMjE3MjYsLTYyMTAzND
+kxMV19
 -->
