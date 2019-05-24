@@ -43,8 +43,9 @@ function solution(n) {
     return answer;
 }
 ```
-아쉬운 점은, 제곱근아래 for문 안에서 모두 
+아쉬운 점은, 제곱근을 아래 for문 안에서 처리하고 싶은데 그렇게 못하겠다는거다.
+(그리고 반복에 n을 포함시키면 n이 제곱수인 경우 제곱근을 두번 더한다. 예를들어 4의 약수는 1, 2, 4ㅇ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MDkzMzU1NiwxMDAyMTcyNiwtNjIxMD
+eyJoaXN0b3J5IjpbLTU0Mjk5NDc2MywxMDAyMTcyNiwtNjIxMD
 M0OTExXX0=
 -->
