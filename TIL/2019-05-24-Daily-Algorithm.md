@@ -25,6 +25,24 @@ function solution(n) {
 0의 경우 예외처리를 해야겠다고 생각하고 if문을 넣었었는데, 짜놓고 보니 n이 0이나 1이면 for문을 돌지 않으니 answer가 각각 0이나 1이 나올 것으로 보고 예외처리 부분을 제거했다.
 
 Time Complexity는 O(n)인데, n의 제곱근까지만 계산해도 모든 약수를 구할 수 있다.
+
+```js
+function solution(n) {
+    let answer = 0;
+    if (Math.sqrt(n) % 1 === 0) {
+	    // n이 제곱수 형태라면 제곱근을 answer에 
+        answer.push(Math.sqrt(n));
+    }
+    for (let i = 1; i * i < n; i++) {
+        if (n % i === 0) {
+            answer.push(i);
+            answer.push(Math.trunc(n / i));
+        }
+    }
+    return answer.reduce((acc, cur) => acc + cur);
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMjE3MjYsLTYyMTAzNDkxMV19
+eyJoaXN0b3J5IjpbNTU5MjczODQxLDEwMDIxNzI2LC02MjEwMz
+Q5MTFdfQ==
 -->
