@@ -30,19 +30,21 @@ Time Complexity는 O(n)인데, n의 제곱근까지만 계산해도 모든 약�
 function solution(n) {
     let answer = 0;
     if (Math.sqrt(n) % 1 === 0) {
-	    // n이 제곱수 형태라면 제곱근을 answer에 
-        answer.push(Math.sqrt(n));
+	    // n이 제곱수 형태라면 제곱근을 answer에 더해놓는다.
+        answer += Math.sqrt(n);
     }
     for (let i = 1; i * i < n; i++) {
         if (n % i === 0) {
-            answer.push(i);
-            answer.push(Math.trunc(n / i));
+	        // 나누어 떨어진다면 제수와 몫이 둘 다 약수라는 뜻이므로 더한다.
+            answer += i;
+            answer += Math.trunc(n / i);
         }
     }
-    return answer.reduce((acc, cur) => acc + cur);
+    return answer;
 }
 ```
+아쉬운 점은, 제곱근아래 for문 안에서 모두 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU5MjczODQxLDEwMDIxNzI2LC02MjEwMz
-Q5MTFdfQ==
+eyJoaXN0b3J5IjpbMTc1MDkzMzU1NiwxMDAyMTcyNiwtNjIxMD
+M0OTExXX0=
 -->
