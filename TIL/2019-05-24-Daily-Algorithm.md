@@ -21,7 +21,9 @@ function solution(n) {
     return answer;
 }
 ```
-단순하게 1부터 n-1까지 모두 나눠봐서 나머지
+단순하게 1부터 n-1까지 모두 나눠봐서 구함.
+0의 경우 예외처리를 해야겠다고 생각하고 if문을 넣었었는데, 짜놓고 보니 n이 0이나 1이면 for문을 돌지 않으니 answer가 각각 0이나 1이 나올 것으로 보고 예외처리 부분을 제거했다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgzNzMzMjU1LC02MjEwMzQ5MTFdfQ==
+eyJoaXN0b3J5IjpbMTAzNDk4NjQxLC02MjEwMzQ5MTFdfQ==
 -->
