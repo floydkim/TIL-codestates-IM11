@@ -11,6 +11,10 @@ $ expo init
 ---
 
 기본적으로 3개의 스크린과 이 스크린을 이동하기 위한 하단 탭 네비게이터를 제공한다.
+
+
+인증 flow 구현
+공식 문서에 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2OTYyMDcxNV19
+eyJoaXN0b3J5IjpbNDA5NDI5MzIsMTA2OTYyMDcxNV19
 -->
