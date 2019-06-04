@@ -11,7 +11,10 @@ nums 배열에 폰켓몬 종류에 대응하는 숫자가 담겨있다.
 > [3, 2, 1, 3]
 
 nums에 담겨 온 폰켓몬 N개 중 N/2개 가져가는데, 최대한 많은 종류를 골라 가져간다.
-이 때
+이 때 폰켓몬 종류 수를 리턴하는 함수를 작성하는 문제.
+
+> -- nums의 길이(N)는 1 이상 10,000 이하의 자연수이며, 항상 짝수로 주어집니다.
+-- 폰켓몬의 종류 번호는 1 이상 200,000 이하의 자연수로 나타냅니다.
 
 ```javascript
 function solution(nums) {
@@ -45,6 +48,7 @@ function solution(nums) {
 
 스터디하는 날 페어 코딩 인터뷰 문제로 받아 풀었음.
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk1MDU4OTU0LDE4NjMwMTA1NjVdfQ==
+eyJoaXN0b3J5IjpbLTE0MzIwNDUwNzYsMTg2MzAxMDU2NV19
 -->
