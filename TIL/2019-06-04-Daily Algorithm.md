@@ -7,7 +7,11 @@ category: TIL
 ## Programmers
 ### 폰켓몬
 
+nums 배열에 폰켓몬 종류에 대응하는 숫자가 담겨있다.
+> [3, 2, 1, 3]
 
+nums에 담겨 온 폰켓몬 N개 중 N/2개 가져가는데, 최대한 많은 종류를 골라 가져간다.
+이 때
 
 ```javascript
 function solution(nums) {
@@ -38,6 +42,9 @@ function solution(nums) {
     return answer >= halfOfNumslength ? halfOfNumslength : answer;
 }
 ```
+
+스터디하는 날 페어 코딩 인터뷰 문제로 받아 풀었음.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMjE5MjI0MywxODYzMDEwNTY1XX0=
+eyJoaXN0b3J5IjpbNjk1MDU4OTU0LDE4NjMwMTA1NjVdfQ==
 -->
