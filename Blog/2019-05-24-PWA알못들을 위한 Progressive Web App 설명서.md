@@ -3,7 +3,7 @@ title: 'PWA알못들을 위한 Progressive Web App 설명서'
 date: 2019-05-24 19:59:12
 category: development
 ---
-# PWA알못들을 위한 Progressive Web App 설명서
+
 원제: An explanation of Progressive Web Apps for the non-PWA crowd
 [이 글](https://medium.freecodecamp.org/an-explanation-of-progressive-web-apps-for-the-non-pwa-crowd-8a400e275ea1)의 (의역을 포함한) 번역입니다.
 
@@ -287,5 +287,6 @@ Run audits 버튼을 클릭해 감사(audit)을 수행할 수 있습니다. 1~2�
 [MDN](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)에도 상세하고 긴 글이 있습니다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI5NTEzNjYxLC0yNjA5Mzc3OTRdfQ==
+eyJoaXN0b3J5IjpbLTg1MTM4Mzk2NCw0Mjk1MTM2NjEsLTI2MD
+kzNzc5NF19
 -->
