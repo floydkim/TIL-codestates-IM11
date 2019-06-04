@@ -1,3 +1,12 @@
+---
+title: Daily Algorithm
+date: 2019-06-04 17:06:23
+category: TIL
+---
+2019-06-04
+## Programmers
+### 폰켓몬
+
 
 
 ```javascript
@@ -29,5 +38,5 @@ function solution(nums) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MzAxMDU2NV19
+eyJoaXN0b3J5IjpbNzg5MjU5MDM0LDE4NjMwMTA1NjVdfQ==
 -->
