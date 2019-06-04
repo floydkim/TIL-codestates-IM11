@@ -48,7 +48,12 @@ function solution(nums) {
 
 스터디하는 날 페어 코딩 인터뷰 문제로 받아 풀었음.
 
+Time Complexity O(n).
+
+배열에 담긴 엘리먼트들의 종류 수를 세려면 모든 엘리먼트를 순회한다. 중복 체크를 위해 dictionary 오브젝트를 생성한다.
+
+처음엔 몇 개 있는지도 세었으나 삭제해 연산을 줄였고, answer를 이용하는것도 문제의 일부라고 생각해 answer 변수에 종류 수를 세었다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzIwNDUwNzYsMTg2MzAxMDU2NV19
+eyJoaXN0b3J5IjpbLTE0MTkzMzU2NTQsMTg2MzAxMDU2NV19
 -->
