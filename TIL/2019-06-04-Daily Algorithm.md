@@ -54,6 +54,9 @@ Time Complexity O(n).
 
 처음엔 몇 개 있는지도 세었으나 삭제해 연산을 줄였고, answer를 이용하는것도 문제의 일부라고 생각해 answer 변수에 종류 수를 세었다.
 
+종류 수가 아무리 많아도 가져갈 수 있는 최대 폰켓몬 수는 N/2개 이므로, 종류 수가 N/2보다 같거나 크면 N/2를 리턴한다.
+
+종류 수가 N/2보다 적으면 가져갈 수 있는 폰켓몬 수(N/2)가 아무리 컫세어놓은 종류 수
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTkzMzU2NTQsMTg2MzAxMDU2NV19
+eyJoaXN0b3J5IjpbMTQ0MDI0NzIsMTg2MzAxMDU2NV19
 -->
