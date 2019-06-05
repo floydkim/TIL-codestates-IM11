@@ -1,5 +1,5 @@
 ---
-title: Daily Algorithm
+title: 2019-05-24 Daily Algorithm
 date: 2019-05-24 17:06:23
 category: TIL
 ---
@@ -44,6 +44,6 @@ function solution(n) {
 ```
 이제 마음에 든다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMzA2NTE0NywxMDAyMTcyNiwtNjIxMD
-M0OTExXX0=
+eyJoaXN0b3J5IjpbLTIwNzQ2NDI5NDYsMTgwMzA2NTE0NywxMD
+AyMTcyNiwtNjIxMDM0OTExXX0=
 -->
