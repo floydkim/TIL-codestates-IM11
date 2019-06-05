@@ -1,6 +1,11 @@
-# Daily Algorithm
-19-05-15
-### Codility
+---
+title: Daily Algorithm
+date: 2019-05-15 20:57:21
+category: TIL
+---
+2019-05-15
+
+## Codility
 A 어레이가 주어지고, K 정수 만큼 오른쪽으로 어레이 내용을 미루는 문제. (rotate 시키는 문제)
 
 ```js
@@ -25,6 +30,6 @@ pop과 unshift를 이용해 하나씩 옮겨줄 수도 있겠지만, 이전에 �
 
 처음에는 resultArr[i] = A[(i + K) % A.length] 이렇게 할당해서 제대로 동작하지 않았는데, 그림그리면서 곰곰히 생각해보니 할당을 잘못하고있음을 깨달았다. 고친 코드로 테스트를 무사히 통과했다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDIwMzI1OTAsLTc3MzU0NTk5MywxMT
-U1MzUwNzkxXX0=
+eyJoaXN0b3J5IjpbODE0MjIwNDgxLC0yMTAyMDMyNTkwLC03Nz
+M1NDU5OTMsMTE1NTM1MDc5MV19
 -->
