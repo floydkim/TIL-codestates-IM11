@@ -1,5 +1,5 @@
 ---
-title: Daily Algorithm
+title: 2019-06-04 Daily Algorithm
 date: 2019-06-04 17:06:23
 category: TIL
 ---
@@ -58,5 +58,6 @@ Time Complexity O(n).
 
 종류 수가 N/2보다 적으면 가져갈 수 있는 폰켓몬 수(N/2)가 아무리 커도 세어놓은 종류 수를 넘기지 못하므로 종류 수를 리턴한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzODg3OTQ4MSwxODYzMDEwNTY1XX0=
+eyJoaXN0b3J5IjpbNjcyNTg2MDM5LDIxMzg4Nzk0ODEsMTg2Mz
+AxMDU2NV19
 -->
