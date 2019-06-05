@@ -1,5 +1,5 @@
 ---
-title: Daily Algorithm
+title: 2019-05-15 Daily Algorithm
 date: 2019-05-15 20:57:21
 category: TIL
 ---
@@ -30,5 +30,5 @@ pop과 unshift를 이용해 하나씩 옮겨줄 수도 있겠지만, 이전에 �
 
 처음에는 resultArr[i] = A[(i + K) % A.length] 이렇게 할당해서 제대로 동작하지 않았는데, 그림그리면서 곰곰히 생각해보니 할당을 잘못하고있음을 깨달았다. 고친 코드로 테스트를 무사히 통과했다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE0MjIwNDgxXX0=
+eyJoaXN0b3J5IjpbMTUxODA4NzAxMCw4MTQyMjA0ODFdfQ==
 -->
