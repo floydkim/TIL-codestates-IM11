@@ -1,5 +1,5 @@
 ---
-title: Daily Algorithm
+title: 2019-05-23 Daily Algorithm
 date: 2019-05-23 20:57:21
 category: TIL
 ---
@@ -59,5 +59,5 @@ function solution(s, n) {
 알고리즘은 코드에 써둠. Time Complexity는 O(n). 각 문자열마다 constant한 연산을 한다.
 z에서 a로 다시 넘어오는 loop이 발생하는 경우를 나머지 연산자로 처리하고 나니 0~25의 인덱스 형태가 리턴되어 이것을 약간의 인력을 들여 알파벳 배열을 둘 만들고, 배열의 인덱스로부터 문자열으 가져오는것이 연산이 빠르다 판단했음.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEzNTY2MjE3XX0=
+eyJoaXN0b3J5IjpbLTMxNjEyMjU4Nyw2MTM1NjYyMTddfQ==
 -->
