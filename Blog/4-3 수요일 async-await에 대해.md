@@ -49,7 +49,7 @@ afunc();
 ```
 [이해에 도움을 준 글](https://medium.com/front-end-weekly/callbacks-promises-and-async-await-ad4756e01d90)
 
-### 4-4 목요일 추가한 내용
+### 나중에 추가한 내용
 [다른 좋은 참고자료](https://javascript.info/async-await)
 > The word “async” before a function means one simple thing: a function always returns a promise. Even If a function actually returns a non-promise value, prepending the function definition with the “async” keyword directs Javascript to automatically wrap that value in a resolved promise.
 
@@ -90,5 +90,5 @@ af().then(r=>{
 [링크의 글(error handling section)](https://javascript.info/async-await#error-handling)을 보면 try - catch 구문을 이용한 핸들링 예제도 있다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkxODQ4OTUzXX0=
+eyJoaXN0b3J5IjpbLTE5NDI4NjkwLDk5MTg0ODk1M119
 -->
